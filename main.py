@@ -1,3 +1,9 @@
+'''
+This is a simple tool that generates all of Kuperberg's SL(3) webs with a given boundary
+The implementation is based on the bijections of J. Tymoczko (2010) and H.M. Russell (2012) bijections with Semistandard Young Tableaux
+Implemented by M. Alqady - Last Updated April, 2026
+'''
+
 import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
