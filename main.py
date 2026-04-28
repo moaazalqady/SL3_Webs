@@ -311,6 +311,4 @@ def plot_webs(boundary_seq, save_pdf=False):
         print(f"Successfully compiled all webs into {filename}")
 
 if __name__ == "__main__":
-    # Test a much larger tensor product (Length 12)
-    # The generation and rendering of this invariant space will now execute rapidly.
-    plot_webs("++--++--++--", save_pdf=True)
+    plot_webs("+++++++-------", save_pdf=True)
